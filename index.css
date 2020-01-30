@@ -37,9 +37,7 @@ nav {
 }
 
 .login-box {
-  border-left: 1px solid #e8e8e8;
-  border-right: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
+  border: 1px solid #e8e8e8;
   border-top: 2px solid #f40;
   background-color: #e2e2e2;
   height: 394px;
@@ -102,7 +100,7 @@ input {
   border: none;
 }
 
-::placeholder {
+.login ::placeholder {
   opacity: 0.2;
 }
 
@@ -153,7 +151,7 @@ button {
 
 .bar-box {
   display: flex;
-  padding: 15px 40px 15px 40px;
+  padding: 15px 40px;
   border-left: 1px solid #e5e5e5;
 }
 
@@ -190,23 +188,29 @@ button {
 
 .companys {
   margin: 20px auto;
+  font-size: 12px;
 }
 
-.companys a,
-.sells a {
+.links a {
   padding: 0px 8px;
   border-left: 1px solid #485065;
   text-decoration: none;
   color: #6c6c6c;
+  font-size: 12px;
 }
+/* 
+.companys:first-child {
+  border: none;
+} */
 
-.com1 a {
+.companys a:first-of-type {
   border: none;
 }
 
 .sells {
   margin: auto;
   color: #6c6c6c;
+  font-size: 12px;
 }
 
 .sells a {
@@ -221,9 +225,14 @@ button {
 .liscens {
   margin: 20px auto 30px auto;
   color: #6c6c6c;
+  font-size: 12px;
 }
 
 .liscens a {
   text-decoration: none;
   color: #6c6c6c;
+}
+
+.links a:hover {
+  color: #f40;
 }
