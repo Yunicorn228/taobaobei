@@ -30,7 +30,7 @@ nav {
 
 .login {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   width: 100%;
   max-width: 990px;
   margin: 40px auto;
@@ -48,7 +48,90 @@ nav {
   box-shadow: 0 2px 6px #acacac;
 }
 
-.title {
+.login-box-2 {
+  width: 352px;
+  border: 1px solid #e8e8e8;
+  border-top: 2px solid #f40;
+  box-shadow: 0 2px 6px #acacac;
+  background-color: rgb(221, 221, 221);
+}
+
+.login-box-2 .content {
+  padding: 50px 25px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.login-box-2 .title {
+  margin-bottom: 20px;
+}
+
+.user-input {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.icon-box {
+  background-color: #ddd;
+}
+
+.icon-box i {
+  padding: 10px;
+  color: #fff;
+}
+
+.user-input input {
+  flex: 1;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.login-box-2 button {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #f40;
+  padding: 10px 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.content .facebook {
+  margin-bottom: 20px;
+  background-color: #3b5998;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  font-size: 12px;
+  width: 61px;
+  border-radius: 3px;
+}
+
+.facebook i {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.assist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.assist a {
+  text-decoration: none;
+  color: #777;
+  font-size: 12px;
+}
+
+.login-box .title {
   width: 100%;
   height: 27px;
   padding-top: 10px;
@@ -93,18 +176,18 @@ nav {
   margin-bottom: 15px;
 }
 
-input {
+.login-box input {
   font-size: 15px;
   outline: none;
   flex: 4;
   border: none;
 }
 
-.login ::placeholder {
+.login-box ::placeholder {
   opacity: 0.2;
 }
 
-button {
+.login-box button {
   color: rgba(255, 255, 255, 0.65);
   font-size: 15px;
   background-color: #f40;
